@@ -1,0 +1,5 @@
+{
+  "preset": "airbnb",
+  "maxErrors": 10,
+  "reporter": "junit"
+}
