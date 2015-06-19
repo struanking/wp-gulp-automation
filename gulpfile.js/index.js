@@ -38,6 +38,7 @@ gulp.task('a11y', getTask('a11y'));
 gulp.task('plato', getTask('plato'));
 
 // Tests
+gulp.task('test', getTask('test'));
 
 // Utility
 gulp.task('clean', getTask('clean'));

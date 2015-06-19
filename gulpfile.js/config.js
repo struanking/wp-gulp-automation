@@ -30,13 +30,21 @@ settings = {
   dev: {
     lint: true,
     minify: false,
-    dest: './build/'
+    dest: './build/',
+    tests: {
+      autoWatch: true,
+      singleRun: false
+    }
   },
   
   prod: {
     lint: true,
     minify: true,
-    dest: './dist/'
+    dest: './dist/',
+    tests: {
+      autoWatch: false,
+      singleRun: true
+    }
   }
 };
 
