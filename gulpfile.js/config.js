@@ -24,6 +24,7 @@ settings = {
   defaults: {
     themeName: pkg.themeName,
     reports: './reports/',
+    sourceMap: true,
     src: './src/'
   },
 
@@ -41,6 +42,7 @@ settings = {
     lint: true,
     minify: true,
     dest: './dist/',
+    sourceMap: false,
     tests: {
       autoWatch: false,
       singleRun: true
