@@ -41,7 +41,7 @@ gulp.task('plato', getTask('plato'));
 // Tests
 gulp.task('test', getTask('test'));
 
-// TODOs
+// TO DOs
 gulp.task('todo', getTask('todo'));
 
 // Utility

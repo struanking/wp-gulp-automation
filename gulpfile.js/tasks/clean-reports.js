@@ -6,10 +6,11 @@ del = require('del');
 
 module.exports = function (gulp, $) {
   return function () {
-    return del([config.reports + '**/*'], function (err, deletedFiles) {
+    return del.sync([config.reports + '**/*'], function (err, deletedFiles) {
       if (err) {
         console.log('Error!: ' + err);
       }
+      return;
     });
   };
 };
